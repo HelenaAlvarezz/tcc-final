@@ -1,0 +1,47 @@
+package br.com.belval.crud.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import br.com.belval.crud.model.Cliente;
+import br.com.belval.crud.repository.ClienteRepository;
+
+@Controller
+public class ClienteController {
+	@Autowired
+	private ClienteRepository repository;
+	
+	@GetMapping("/especiarias/cadastro")
+	public ModelAndView novo() {
+	ModelAndView modelAndView = new ModelAndView("newcadastro");
+	modelAndView.addObject("cliente", new Cliente());
+	return modelAndView;
+	}
+	
+
+	@PostMapping("/especiarias/cadastro")
+	public ModelAndView novo(Cliente cliente, RedirectAttributes redirectAttributes) {
+		ModelAndView modelAndView = new ModelAndView("redirect:/especiarias/cadastro/admin");
+		String msg = "";
+		if (cliente.getId() == 0) {
+			msg = "Novo produto criado!";
+		} else {
+			msg = "Produto atualizado!";
+		}
+		redirectAttributes.addFlashAttribute("msg", msg);
+		repository.save(cliente);
+		return modelAndView;
+	}
+	
+	@GetMapping("/especiarias/cadastro/admin")
+	public ModelAndView list() {
+		ModelAndView modelAndView = new ModelAndView("lista-produtos");
+		//modelAndView.addObject("produtos", listaProdutos);
+		modelAndView.addObject("produtos", repository.findAll());
+		return modelAndView;
+	}
+}

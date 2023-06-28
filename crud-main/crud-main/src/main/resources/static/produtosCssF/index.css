@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.normal-section + .normal-section {
+  margin-top: 48px;
+}
+
+.container {
+  max-width: 600px; /*Tamanho maximo*/
+  padding: 0 16px; /*Caso fique de tamanho pequeno tenha um folga de 16laterais*/
+  margin: 0 auto; /*O auto deixa as laterais com o maximo de espaço iguais - Como sendo centralizado*/
+}
+
+.produtos {
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.movie-product {
+  /* Deixar todos na mesma linha */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.produto-titulo {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.products-container {
+  /* Colocar 2 posters por linha */
+  display: flex;
+
+  /* Controla as imagens conforme o tamanho
+     Pode permitir ou não 2 ou mais imagens por linha */
+  flex-wrap: wrap;
+  /* Espaçamento máximo entre os posters */
+  justify-content: space-between;
+  /* Separar em 40px cada */
+  gap: 40px;
+}
+
+.produto-image {
+  /* Com este tamanho da imagem o item acima flex-wrap
+     consegue colocar as 2 imagens */
+  width: 140px;
+  /* Imagens ficarem com o mesmo tamanho */
+  height: 150px;
+}
+
+/* Preço e Botão */
+.produto-preco-container {
+  margin-top: 8px;
+  /* 100% deste local */
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  /* Centralizar horizontal ao botão */
+  align-items: center;
+}
+
+.produto-preco {
+  margin-right: 12px;
+  font-weight: bold;
+}
+
+.button-hover-background {
+  background-color: #ff5722;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+
+  transition: 0.2s;
+}
+
+.button-hover-background:hover {
+  background-color: transparent;
+  color: #ff5722;
+}
+
+/* ====================C A R R I N H O======================== */
+
+.carrinho {
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+
+/* Tamanho total da tabela */
+.cart-table {
+  width: 100%;
+
+  /* As linhas estão separadas com espaço entre elas
+     Então com collapse serão juntadas */
+  border-collapse: collapse;
+}
+
+.table-head-item {
+  text-align: start;
+  border-bottom: 1px solid gray;
+  padding-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.second-col,
+.third-col {
+  /* Espaços iguais */
+  width: 26%;
+}
+
+/* Selecionar todos os td dentro de cart-product */
+.cart-product td {
+  padding: 8px 0;
+}
+
+/* Deixar a imagem e nome na mesma linha e centralizar
+   vertical*/
+.product-identification {
+  display: flex;
+  align-items: center;
+}
+
+.cart-product-image {
+  width: 90px;
+  height: auto;
+}
+
+.cart-product-title {
+  margin-left: 16px;
+  font-size: 18px;
+}
+
+.product-qtd-input {
+  width: 48px;
+  height: 34px;
+  border-radius: 6px;
+  border: 2px solid #00f;
+  text-align: center;
+  background-color: #eee;
+}
+
+.remove-product-button {
+  margin-left: 12px;
+  background-color: #f00;
+  color: #fff;
+  padding: 10px 8px;
+  border: 0;
+  border-radius: 6px;
+
+  transition: 0.2s;
+}
+
+.remove-product-button:hover {
+  filter: brightness(0.8);
+}
+
+.cart-total-container {
+  /* border-top: 1px solid gray; */
+  border-top: 3px dashed red;
+  text-align: end;
+  padding: 6px 16px 0 0;
+  font-size: 18px;
+}
+
+.cart-total-container strong {
+  margin-right: 12px;
+}
+
+.purchase-button {
+  display: flex;
+  margin: 24px auto 0;
+  background-color: blue;
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  padding: 16px 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+
+  transition: 0.2s;
+}
+
+.purchase-button:hover {
+  filter: brightness(0.8);
+}
+
+
+/* parte do felipe */
+
+.entrada p{
+  text-align: center;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+  /* color: rgb(252, 159, 126);;
+  text-align: center;
+  font-size: 50px; */
+
+.titulo{
+  text-align: center;
+  font-size: 50px;
+}
+
+.subtitulo{
+  text-align: center;
+  font-size: 25px;
+}
+
+.produtos{
+padding: 40px;
+
+}
+
+.produtos p{
+  background-color: white;
+}
+.produtos h4 {
+font-size: 32px;
+margin: 40px 40px;
+  background-color: white;
+}
+
+.produtos ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+/* flex-wrap: wrap; */
+}
+
+.produtos li {
+flex-basis: 30%;
+margin-right: 5%;
+margin-bottom: 80px;
+background-color: white;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+padding: 0px ;
+  padding-left: 0;
+text-align: center;
+}
+
+.produtos img {
+width: 200px;
+height: auto;
+margin-bottom: 50px;
+ 
+}
+
+.button {
+background-color: #ff5722;
+color: #fff;
+display: inline-block;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+font-size: 18px;
+}
+
+
+  /* 
+  CORES DO SITE É DAQUI PRA BAIXO */
+/* 
+  *{
+      background-color: whitesmoke;
+      margin: 0;
+  } */
+  .cortopo p{
+      background-color: rgb(252, 159, 126);
+      
+  }
+
+  .cortopo{
+     color: black;
+  }
+
+  .mini{
+      color: rgb(252, 159, 126);
+  }
+
+  .topicos h2{
+      text-align: center;
+  }

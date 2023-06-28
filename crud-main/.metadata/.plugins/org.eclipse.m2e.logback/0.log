@@ -1,0 +1,167 @@
+2023-06-08 12:27:25,772 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-06-08 12:29:21,882 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-08 12:29:39,504 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.belval:crud:0.0.1-SNAPSHOT @ C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\pom.xml.
+2023-06-08 12:29:43,576 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.0.5/spring-boot-starter-data-jpa-3.0.5.pom
+2023-06-08 12:29:43,743 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.0.5/spring-boot-starter-data-jpa-3.0.5.pom
+2023-06-08 12:29:43,891 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.0.5/spring-boot-starter-aop-3.0.5.pom
+2023-06-08 12:29:44,036 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.0.5/spring-boot-starter-aop-3.0.5.pom
+2023-06-08 12:29:44,269 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.0.5/spring-boot-starter-jdbc-3.0.5.pom
+2023-06-08 12:29:44,422 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.0.5/spring-boot-starter-jdbc-3.0.5.pom
+2023-06-08 12:29:44,654 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.0.7/spring-jdbc-6.0.7.pom
+2023-06-08 12:29:44,859 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.0.7/spring-jdbc-6.0.7.pom
+2023-06-08 12:29:45,050 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.0.7/spring-tx-6.0.7.pom
+2023-06-08 12:29:45,236 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.0.7/spring-tx-6.0.7.pom
+2023-06-08 12:29:48,180 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/3.0.4/spring-data-jpa-3.0.4.pom
+2023-06-08 12:29:48,334 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/3.0.4/spring-data-jpa-3.0.4.pom
+2023-06-08 12:29:48,503 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa-parent/3.0.4/spring-data-jpa-parent-3.0.4.pom
+2023-06-08 12:29:48,630 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa-parent/3.0.4/spring-data-jpa-parent-3.0.4.pom
+2023-06-08 12:29:48,854 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/3.0.4/spring-data-parent-3.0.4.pom
+2023-06-08 12:29:49,043 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/3.0.4/spring-data-parent-3.0.4.pom
+2023-06-08 12:29:49,202 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/3.0.4/spring-data-build-3.0.4.pom
+2023-06-08 12:29:49,322 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/3.0.4/spring-data-build-3.0.4.pom
+2023-06-08 12:29:49,585 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/3.0.4/spring-data-commons-3.0.4.pom
+2023-06-08 12:29:49,717 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/3.0.4/spring-data-commons-3.0.4.pom
+2023-06-08 12:29:49,846 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.0.7/spring-orm-6.0.7.pom
+2023-06-08 12:29:49,971 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.0.7/spring-orm-6.0.7.pom
+2023-06-08 12:29:50,106 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.0.7/spring-aspects-6.0.7.pom
+2023-06-08 12:29:50,223 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.0.7/spring-aspects-6.0.7.pom
+2023-06-08 12:29:55,121 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.0.5/spring-boot-starter-data-jpa-3.0.5.jar
+2023-06-08 12:29:55,179 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.0.5/spring-boot-starter-jdbc-3.0.5.jar
+2023-06-08 12:29:55,179 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/3.0.4/spring-data-jpa-3.0.4.jar
+2023-06-08 12:29:55,154 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.0.5/spring-boot-starter-aop-3.0.5.jar
+2023-06-08 12:29:55,130 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.0.7/spring-jdbc-6.0.7.jar
+2023-06-08 12:29:55,683 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.0.5/spring-boot-starter-data-jpa-3.0.5.jar
+2023-06-08 12:29:55,728 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/3.0.4/spring-data-commons-3.0.4.jar
+2023-06-08 12:29:55,766 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.0.5/spring-boot-starter-jdbc-3.0.5.jar
+2023-06-08 12:29:55,787 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.0.5/spring-boot-starter-aop-3.0.5.jar
+2023-06-08 12:29:55,935 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.0.7/spring-orm-6.0.7.jar
+2023-06-08 12:29:56,044 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.0.7/spring-tx-6.0.7.jar
+2023-06-08 12:29:56,271 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/3.0.4/spring-data-jpa-3.0.4.jar
+2023-06-08 12:29:56,310 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.0.7/spring-jdbc-6.0.7.jar
+2023-06-08 12:29:56,508 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.0.7/spring-aspects-6.0.7.jar
+2023-06-08 12:29:56,575 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.0.7/spring-orm-6.0.7.jar
+2023-06-08 12:29:56,675 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.0.7/spring-tx-6.0.7.jar
+2023-06-08 12:29:56,852 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/3.0.4/spring-data-commons-3.0.4.jar
+2023-06-08 12:29:57,519 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.0.7/spring-aspects-6.0.7.jar
+2023-06-08 12:30:06,467 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.0.5/spring-boot-starter-data-jpa-3.0.5-sources.jar
+2023-06-08 12:30:06,892 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.0.5/spring-boot-starter-data-jpa-3.0.5-sources.jar
+2023-06-08 12:30:07,113 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-jpa:3.0.5
+2023-06-08 12:30:07,600 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.0.5/spring-boot-starter-aop-3.0.5-sources.jar
+2023-06-08 12:30:07,764 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.0.5/spring-boot-starter-aop-3.0.5-sources.jar
+2023-06-08 12:30:07,923 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-aop:3.0.5
+2023-06-08 12:30:08,079 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.0.5/spring-boot-starter-jdbc-3.0.5-sources.jar
+2023-06-08 12:30:08,094 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 12:30:08,287 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-06-08 12:30:08,392 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.0.5/spring-boot-starter-jdbc-3.0.5-sources.jar
+2023-06-08 12:30:08,466 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-jdbc:3.0.5
+2023-06-08 12:30:08,624 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 12:30:08,637 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.0.7/spring-jdbc-6.0.7-sources.jar
+2023-06-08 12:30:09,447 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.0.7/spring-jdbc-6.0.7-sources.jar
+2023-06-08 12:30:09,912 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:6.0.7
+2023-06-08 12:30:10,124 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/3.0.4/spring-data-jpa-3.0.4-sources.jar
+2023-06-08 12:30:10,550 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/3.0.4/spring-data-jpa-3.0.4-sources.jar
+2023-06-08 12:30:10,816 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-jpa:3.0.4
+2023-06-08 12:30:11,012 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud-main/src/main/java
+2023-06-08 12:30:11,100 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud-main/src/main/resources
+2023-06-08 12:30:11,017 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/3.0.4/spring-data-commons-3.0.4-sources.jar
+2023-06-08 12:30:11,883 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/3.0.4/spring-data-commons-3.0.4-sources.jar
+2023-06-08 12:30:11,990 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:3.0.4
+2023-06-08 12:30:12,137 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.0.7/spring-orm-6.0.7-sources.jar
+2023-06-08 12:30:12,406 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.0.7/spring-orm-6.0.7-sources.jar
+2023-06-08 12:30:12,461 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:6.0.7
+2023-06-08 12:30:12,576 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.0.7/spring-tx-6.0.7-sources.jar
+2023-06-08 12:30:12,737 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /crud-main/src/main/resources
+2023-06-08 12:30:12,791 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /crud-main/src/test/java
+2023-06-08 12:30:12,887 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.0.7/spring-tx-6.0.7-sources.jar
+2023-06-08 12:30:13,182 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:6.0.7
+2023-06-08 12:30:13,301 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 12:30:13,405 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-06-08 12:30:13,417 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 12:30:13,675 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.0.7/spring-aspects-6.0.7-sources.jar
+2023-06-08 12:30:14,876 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.0.7/spring-aspects-6.0.7-sources.jar
+2023-06-08 12:30:15,046 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aspects:6.0.7
+2023-06-08 12:30:43,950 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 43,00 sec, update config takes 38,00 sec 
+2023-06-08 12:30:44,674 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 12:30:44,738 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-06-08 12:30:44,960 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 12:33:08,502 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 12:33:09,280 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-06-08 12:33:11,356 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 12:37:45,668 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 12:37:46,038 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-06-08 12:37:46,131 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 12:42:20,427 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 12:42:23,040 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-06-08 12:42:23,091 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 12:42:58,515 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 12:42:58,872 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-06-08 12:42:58,901 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 12:43:06,894 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 12:43:07,014 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-06-08 12:43:07,073 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 12:45:27,825 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 12:45:28,674 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-06-08 12:45:28,736 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 12:45:46,006 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 12:45:46,220 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-06-08 12:45:46,305 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 12:48:38,500 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 12:48:38,727 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 12:48:38,760 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 12:56:19,539 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 12:56:19,817 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 12:56:19,930 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:01:38,462 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:01:38,560 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 13:01:38,613 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:01:59,789 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 13:02:00,116 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources
+2023-06-08 13:02:00,175 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:41:50,942 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:41:51,208 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 13:41:51,224 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:44:10,237 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:44:10,625 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 13:44:10,737 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:46:33,332 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 13:46:33,386 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources
+2023-06-08 13:46:33,464 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:46:44,363 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:46:44,390 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 13:46:44,453 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:51:20,524 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:51:21,174 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 13:51:21,218 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:53:20,729 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:53:20,767 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 13:53:20,820 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:53:40,236 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 13:53:40,289 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 10 resources
+2023-06-08 13:53:40,325 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:56:10,888 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:56:10,947 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:56:10,998 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:56:13,929 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:56:14,135 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:56:14,169 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:56:18,408 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:56:18,452 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:56:18,506 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:56:21,876 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:56:21,905 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:56:21,917 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:56:24,542 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:56:24,578 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:56:24,623 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:56:35,268 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:56:35,297 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-08 13:56:35,311 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:56:38,612 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 13:56:38,746 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-06-08 13:56:38,824 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:56:42,421 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 13:56:42,604 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-06-08 13:56:42,635 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources
+2023-06-08 13:56:52,064 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-08 13:56:52,213 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources
+2023-06-08 13:56:52,275 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Filipe\Desktop\quasetcc\workspace\crud-main\crud-main\src\test\resources

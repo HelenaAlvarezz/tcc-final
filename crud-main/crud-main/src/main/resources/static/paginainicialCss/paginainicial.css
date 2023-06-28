@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/especiarias-v%C3%A1rios-temperos-ind%C3%ADgenas-coloridos-tempero-%C3%ADndio-e-pano-de-fundo-ervas-sortido-condimentos-das-aroma-dos-171918091.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 0;
+}
+.apresentacao{
+    margin-top: 600px;
+    margin-left: 100px;
+    color: white;
+    font-size: 50px;
+}
+.nesse{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-left: 100px;
+}
+
+.restocorpo{
+    background-color: white;
+    padding: 100px;
+	display: block;
+    /* box-sizing: border-box; */
+}
+
+.noticias{
+    font-size: 50px;
+
+}
+.subtexto{
+	font-size: 25px;
+}
+
+
+.produtos{
+	padding: 40px;
+
+}
+
+.produtos p{
+    background-color: white;
+}
+.produtos h4 {
+	font-size: 32px;
+	margin: 40px 40px;
+    background-color: white;
+}
+
+.produtos ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	/* flex-wrap: wrap; */
+}
+
+.produtos li {
+	flex-basis: 30%;
+	margin-right: 5%;
+	margin-bottom: 80px;
+	background-color: white;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	padding: 0px ;
+    padding-left: 0;
+	text-align: center;
+}
+
+.produtos img {
+	width: 200px;
+	height: auto;
+	margin-bottom: 50px;
+    margin-left: 150px;
+}
+
+.button {
+	background-color: #ff5722;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+
+.titulo-delivery{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.titulo-delivery:first-letter{
+    font-size: 50px;
+}
+
+.delivery table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.delivery th{
+    background-color: aliceblue;
+    color: gray;
+    padding: 30px;
+}
+
+.delivery tr{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.delivery td{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: gray;
+}
+.delivery th{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.delivery img{
+    width: 40%;
+    background-color: gray;
+}
+
+.section .delivery{
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: 400px
+}
+

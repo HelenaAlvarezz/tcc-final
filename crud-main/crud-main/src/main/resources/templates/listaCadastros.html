@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lista Cadastros</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script th:inline="javascript">
+		/*<![CDATA[*/
+			var msg = /*[[${msg}]]*/ null;
+			if(msg != null) {
+				alert(msg);
+			}
+		/*]]>*/
+		</script>
+
+		<h1>Lista de cadastros</h1>
+		
+		<table border="1">
+			<tr>
+				<th>ID</th>
+				<th>Nome</th>
+				<th></th>
+				<th></th>
+				<th></th>
+
+			</tr>
+			<tr th:each="cli : ${cliente}">
+				<td>
+					<span th:text="${cli.id}"></span>
+				</td>
+				<td>
+					<span th:text="${cli.nome}"></span>
+				</td>
+				<td>
+					<a th:href="@{/cliente/{id} (id=${cli.id}) }">Detalhe</a>
+				</td>
+				<td>
+					<a th:href="@{/cliente/{id}/edit (id=${cli.id}) }">Editar</a>
+				</td>
+				<td>
+					<a th:href="@{/cliente/{id}/delete (id=${cli.id}) }">Delete</a>
+				</td>
+			</tr>
+		</table>
+		<a th:href="@{/especiarias/cadastro}">Novo</a>
+	</body>
+</html>

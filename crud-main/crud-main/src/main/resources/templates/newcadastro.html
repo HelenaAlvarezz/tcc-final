@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/cadastroCss/cadastro.css">
+    <link rel="stylesheet" href="/copiaecola/forms.css">
+    <link rel="stylesheet" href="/copiaecola/navbar.css">
+
+    <title>Formulário Personalizado</title>
+</head>
+<body>
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <img src="https://uploaddeimagens.com.br/images/004/486/743/full/especial.png?1685400374" alt="" width="550"> </label>
+        <ul  class="active" > 
+          <li><a href="/especiarias/inicio">Página inicial</a></li>
+          <li><a href="/especiarias/produtos">Produtos</a></li>
+          <li><a href="/especiarias/sobrenos">Sobre nós</a></li>
+          <li><a href="/especiarias/login">Login</a></li>
+        </ul>
+      </nav>
+    
+
+    <section class="form-container">
+        <div class="container">
+            <form action="/especiarias/cadastro" method="post"> 
+                <h1 class='primeiroh1' > Cadastro</h1>
+                <input type="hidden" name="id" th:value="${cliente.id}"> <br>
+                <p class='legenda' > Preencha o formulário abaixo! </p>
+                <div class="input-single">
+                    <input class="input" type="text" id="nome" name="nome" th:value="${cliente.nome}"required autocomplete="off">
+                    <label for="nome">Seu nome completo</label>
+                </div>
+                <div class="input-single">
+                    <input class="input" type="text" id="date" name="date" th:value="${cliente.idade}" required autocomplete="on">
+                    <label for="date">Informe a sua data de nascimento</label>
+                </div>
+                <div class="input-single">
+                    <input class="input" type="text" id="email" name="email" th:value="${cliente.email}"required autocomplete="off">
+                    <label for="email">Seu e-mail</label>
+                </div>
+                <div class="input-single">
+                    <input class="input" type="password" id="senha" name="senha"th:value="${cliente.senha}" required autocomplete="off">
+                    <label for="senha">Digite uma senha</label>
+                </div>
+                <div class="input-single">
+                    <input class="input" type="text"  max= "11 9725332" id="telefone" name="telefone"th:value="${cliente.telefone}" required autocomplete="off">
+                    <label for="telefone">Seu telefone</label>
+                </div>
+                <div class="btn" >
+                    <input type="submit" value="Enviar" onclick="window.location.href='/especiarias/inicio'" > 
+                </div>
+            </form>
+        </div><!--container-->
+    </section>
+
+
+</body>
+</html>

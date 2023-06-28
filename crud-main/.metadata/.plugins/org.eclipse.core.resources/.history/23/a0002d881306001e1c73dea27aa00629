@@ -1,0 +1,5 @@
+package br.com.belval.crud.repository;
+
+public interface ClienteRepository {
+
+}

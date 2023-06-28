@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Detalhe Produto</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Detalhe cliente</h1>
+		<table border="1">
+			<tr>
+				<th>ID:</th>
+				<td>
+					<span th:text="${cliente.id}"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>Nome:</th>
+				<td>
+					<span th:text="${cliente.nome}"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>email:</th>
+				<td>
+					<span th:text="${cliente.email}"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>senha:</th>
+				<td>
+					<span th:text="${cliente.senha}"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>idade:</th>
+				<td>
+					<span th:text="${cliente.idade}"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>telefone:</th>
+				<td>
+					<span th:text="${cliente.telefone}"></span>
+				</td>
+			</tr>
+		</table>
+		<a th:href="@{/especiarias/cadastro/admin}">Lista</a>
+	</body>
+</html>

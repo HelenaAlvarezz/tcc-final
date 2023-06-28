@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastroCss/cadastro.css">
+    <link rel="stylesheet" href="copiaecola/forms.css">
+    <link rel="stylesheet" href="copiaecola/navbar.css">
+
+    <title>Formulário Personalizado</title>
+</head>
+<body>
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <img src="https://uploaddeimagens.com.br/images/004/486/743/full/especial.png?1685400374" alt="" width="550"> </label>
+        <ul  class="active" > 
+          <li><a href="paginainicial.html">Página inicial</a></li>
+          <li><a href="paginaprodutos.html">Produtos</a></li>
+          <li><a href="sobrenos.html">Sobre nós</a></li>
+          <li><a href="pagLogin.html">Login</a></li>
+        </ul>
+      </nav>
+    
+
+    <section class="form-container">
+        <div class="container">
+            <form> 
+                <h1 class='primeiroh1' > Cadastro</h1>
+                <p class='legenda' > Preencha o formulário abaixo! </p>
+                <div class="input-single">
+                    <input class="input" type="text" id="nome" name="nome" required autocomplete="off">
+                    <label for="nome">Seu nome completo</label>
+                </div>
+                <div class="input-single">
+                    <input class="input" type="text" id="date" name="date" required autocomplete="on">
+                    <label for="date">Informe a sua data de nascimento</label>
+                </div>
+                <div class="input-single">
+                    <input class="input" type="text" id="email" name="email" required autocomplete="off">
+                    <label for="email">Seu e-mail</label>
+                </div>
+                <div class="input-single">
+                    <input class="input" type="password" id="senha" name="senha" required autocomplete="off">
+                    <label for="senha">Digite uma senha</label>
+                </div>
+                <div class="input-single">
+                    <input class="input" type="text"  max= "11 9725332" id="telefone" name="telefone" required autocomplete="off">
+                    <label for="telefone">Seu telefone</label>
+                </div>
+                <div class="btn" >
+                    <input type="submit" value="Enviar" onclick="window.location.href='paginainicial.html'" > 
+                </div>
+            </form>
+        </div><!--container-->
+    </section>
+
+    <br><br><br><br>
+      
+    <footer class="footer"> 
+
+        <div class="left"> 
+
+            <h4 class="title-footer"> Especiarias da <span> Vovó </span></h4> 
+
+            <p class="links"> 
+                <a href="paginainicial.html" title="Home">Página inicial</a> 
+                <a href="paginaprodutos.html" title="Html"> Produtos</a> 
+                <a href="sobrenos.html" title="Css"> Sobre nós</a> 
+                <a href="newcadastro.html" title="jQuery"> Cadastro </a> 
+            </p> 
+
+          
+                <p class="Copyright"> Copyright &copy; - Todos os Direitos Reservados.</p> 
+
+        </div>
+
+        <div class="right"> 
+
+            <form action="#" method="post"> 
+                  <h1 class='segundoh1'> Fale Conosco</h1>
+                  <br>
+                <input type="text" name="nome" placeholder="Nome" required=""/> 
+
+                <input type="email" name="email" placeholder="E-mail" required=""/> 
+
+                <input type="text" name="assunto" placeholder="Assunto" required=""/> 
+
+                <textarea name="messagem" placeholder="Messagem" required=""></textarea> 
+
+                <button class="btn">Enviar</button> 
+
+            </form> 
+
+        </div>
+
+    </footer> 
+
+</div>
+
+<nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+       
+  </nav>
+
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Detalhe Produto</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Produto não encontrado.</h1>
+		<a th:href="@{/especiarias/cadastro/admin}">Lista</a>
+	</body>
+</html>

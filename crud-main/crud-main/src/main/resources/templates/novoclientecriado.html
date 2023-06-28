@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Novo cliente Criado</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Novo cliente criado!</h1>
+		<table border="1">
+			<tr>
+				<th>ID:</th>
+				<td>
+					<span th:text="${novoCliente.id}"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>Nome:</th>
+				<td>
+					<span th:text="${novoCliente.nome}"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>email:</th>
+				<td>
+					<span th:text="${novoCliente.email}"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>senha:</th>
+				<td>
+					<span th:text="${novoCliente.senha}"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>telefone:</th>
+				<td>
+					<span th:text="${novoCliente.telefone}"></span>
+				</td>
+			</tr>
+			<tr>
+				<th>idade:</th>
+				<td>
+					<span th:text="${novoCliente.idade}"></span>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

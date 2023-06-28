@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lista Cliente</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script th:inline="javascript">
+		/*<![CDATA[*/
+			var msg = /*[[${msg}]]*/ null;
+			if(msg != null) {
+				alert(msg);
+			}
+		/*]]>*/
+		</script>
+
+		<h1>Lista Clientes</h1>
+		
+		<table border="1">
+			<tr>
+				<th>ID</th>
+				<th>Nome</th>
+				<th>Telefone</th>
+				<th>Data de nascimento</th>
+				<th>Cpf</th>
+				<th>Endereço</th>
+				<th>Cidade</th>
+				<th>Bairro</th>
+				<th>Cep</th>
+				<th>Email</th>
+				<th>Senha</th>
+				<th></th>
+				<th></th>
+				<th></th>
+			
+			</tr>
+			
+			<tr th:each="cliente:${clientes}">
+				<td>
+					<span th:href="${cliente.id}"></span>
+				</td>
+				<td>
+					<span th:text="${cliente.nome}"></span>
+				</td>
+				<td>
+					<span th:text="${cliente.telefone}"></span>
+				</td>
+				<td>
+					<span th:text="${cliente.data_nasc}"></span>
+				</td>
+				<td>
+					<span th:text="${cliente.cpf}"></span>
+				</td>
+				<td>
+					<span th:text="${cliente.endereco}"></span>
+				</td>
+				<td>
+					<span th:text="${cliente.cidade}"></span>
+				</td>
+				<td>
+					<span th:text="${cliente.bairro}"></span>
+				</td>
+				<td>
+					<span th:text="${cliente.cep}"></span>
+				</td>
+				<td>
+					<span th:text="${cliente.email}"></span>
+				</td>
+				<td>
+					<span th:text="${cliente.senha}"></span>
+				</td>
+				<td>
+					<a th:href="@{/cliente/{id} (id=${cliente.id}) }">Detalhe</a>
+				</td>
+				<td>
+					<a th:href="@{/cliente/{id}/edit (id=${cliente.id}) }">Editar</a>
+				</td>
+				<td>
+					<a th:href="@{/cliente/{id}/delete (id=${cliente.id}) }">Delete</a>
+				</td>
+			</tr>
+		</table>
+		<a th:href="@{/cliente/novo}">Novo</a>
+	</body>
+</html>
+
